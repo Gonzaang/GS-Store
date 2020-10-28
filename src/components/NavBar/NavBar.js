@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import CartWidget from './CartWidget';
+import CartWidget from '../CartWidget/CartWidget';
 
 
 class NavBar extends React.Component{
@@ -24,9 +24,7 @@ class NavBar extends React.Component{
       </NavDropdown>
     </Nav>
     <Nav>
-      
       <Nav.Link eventKey={2} href="#memes">
-      <Navbar.Brand>Cart</Navbar.Brand>
       <CartWidget />
       </Nav.Link>
     </Nav>
