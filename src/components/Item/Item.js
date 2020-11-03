@@ -1,11 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import Container from 'react-bootstrap/Container'
 
 export default function Item (props) {
   return ( 
   <>
-    <Card style={{ width: '12rem' }}>
+    <Card style={{ width: '14rem' }}>
     <Card.Img variant="top" src={props.pictureUrl}/>
     <Card.Body>
     <Card.Title>{props.title}</Card.Title>
